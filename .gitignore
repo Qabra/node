@@ -1,0 +1,22 @@
+# only ignore top-level node_modules
+# we store a symlink to /node_modules/.bin in each sub-project
+node_modules
+xunit.xml
+
+debug
+
+npm-debug.log
+.DS_Store
+
+_SpecRunner.html
+test_results
+coverage
+
+*.backup
+
+
+.idea
+*.swp
+
+/scratch
+/tmp
